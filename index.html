@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <title>Pipoca Ágil</title>
@@ -24,10 +24,29 @@
         </ul>
         <div class="botoes">
           <a class="cadastro" href="./cadastro.html">Cadastre-se</a>
-          <button class="login">Login</button>
+          <a class="login abrir">Login</a>
         </div>
       </nav>
     </header>
+  </div>
+  <div class="modal-container">
+    <div class="modal">
+      <h1>Login</h1>
+      <span>Não tem uma conta ainda? <a href="./cadastro.html">Cadastre-se</a></span>
+      <button class="fechar"></button>
+      <form>
+        <input type="text" name="email" id="email" placeholder="Insira seu Email">
+        <input type="password" name="senha" id="senha" placeholder="Insira sua Senha">
+        <div class="esquecer">
+          <div class="lembrar">
+            <input type="checkbox" name="lembre" id="lembre">
+            <label for="lembre">Lembrar-me</label>
+          </div>
+          <a href="">Esqueceu a Senha?</a>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
   </div>
 </body>
 </html>
