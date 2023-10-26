@@ -1,18 +1,18 @@
-export default function modal() {}
+export default function modal() {
+  const botaoAbrir = document.querySelector(".abrir");
+  const botaoFechar = document.querySelector(".fechar");
+  const containerModal = document.querySelector(".container");
+  const inputEmail = document.getElementById("email");
 
-const botaoAbrir = document.querySelector(".abrir");
-const botaoFechar = document.querySelector(".fechar");
-const containerModal = document.querySelector(".container");
-const inputEmail = document.getElementById("email");
+  botaoAbrir.addEventListener("click", abrirModal);
+  botaoFechar.addEventListener("click", fecharModal);
 
-botaoAbrir.addEventListener("click", abrirModal);
-botaoFechar.addEventListener("click", fecharModal);
+  function abrirModal() {
+    containerModal.classList.add("ativo");
+    inputEmail.focus();
+  }
 
-function abrirModal() {
-  containerModal.classList.add("ativo");
-  inputEmail.focus();
-}
-
-function fecharModal() {
-  containerModal.classList.remove("ativo");
+  function fecharModal() {
+    containerModal.classList.remove("ativo");
+  }
 }
