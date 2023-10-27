@@ -1,4 +1,4 @@
-export default function modal() {
+export default function initModal() {
   const botaoAbrir = document.querySelector(".abrir");
   const botaoFechar = document.querySelector(".fechar");
   const containerModal = document.querySelector(".container");
@@ -16,5 +16,3 @@ export default function modal() {
     containerModal.classList.remove("ativo");
   }
 }
-
-modal()
