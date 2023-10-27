@@ -6,13 +6,14 @@
 }
 
 header {
-  background: rgba(182, 164, 240, 0.25);
+  background: rgb(243, 250, 228, 0.50);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px 10px;
   max-width: 1440px;
   margin: 32px auto;
+  border-radius: 20px;
 }
 
 .img-div {
@@ -39,6 +40,8 @@ li a {
   margin-right: 30px;
   text-align: center;
   line-height: 140%;
+  font-family: var(--titulo);
+  font-weight: 500;
 }
 
 ul li:first-child,
@@ -61,15 +64,15 @@ ul span {
 }
 
 .cadastro {
-  background: #8b4baf;
-  border: 2px solid #b6a4f0;
-  padding: 22px 30px;
+  background: #b6a4f0;
+  border: 2px solid #8B4BAF;
+  padding: 18px 28px;
   text-transform: uppercase;
   border-radius: 50px;
-  color: #f3fae4;
+  color: #833da9;
   cursor: pointer;
   font-family: var(--titulo);
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -77,12 +80,12 @@ ul span {
   margin-right: 72px;
   background: #f3fae4;
   border: 2px solid #8b4baf;
-  padding: 22px 30px;
+  padding: 18px 28px;
   text-transform: uppercase;
   border-radius: 50px;
   color: #8b4baf;
   cursor: pointer;
   font-family: var(--titulo);
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
 }
