@@ -25,7 +25,7 @@ nav {
   gap: 60px;
 }
 
-ul {
+.lista-header {
   display: flex;
   align-items: center;
   gap: 32px;
@@ -34,7 +34,7 @@ ul {
   font-size: 1.25rem;
 }
 
-li a {
+.lista-header li a {
   display: block;
   color: #3a2345;
   margin-right: 30px;
@@ -44,15 +44,15 @@ li a {
   font-weight: 500;
 }
 
-ul li:first-child,
-ul li:nth-child(2n) {
+.lista-header li:first-child,
+.lista-header li:nth-child(2n) {
   display: flex;
   align-items: center;
   border-right: 4px solid #8b4baf;
   height: 50px;
 }
 
-ul span {
+.lista-header span {
   display: block;
   text-align: center;
 }
