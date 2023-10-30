@@ -7,8 +7,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;600;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
   <title>Pipoca Ágil</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <div class="header-bg">
@@ -18,13 +18,13 @@
       </div>
       <nav>
         <ul class="lista-header">
-          <li><a href="">Trilha de <span>Conhecimento</span></a></li>
-          <li><a href="">Clube de <span>Assinantes</span></a></li>
-          <li><a href="">Galeria de <span>Fotos</span></a></li>
+          <li><a href="#">Trilha de <span>Conhecimento</span></a></li>
+          <li><a href="#">Clube de <span>Assinantes</span></a></li>
+          <li><a href="#">Galeria de <span>Fotos</span></a></li>
         </ul>
         <div class="botoes">
           <a class="cadastro" href="./cadastro.html">Cadastre-se</a>
-          <a class="login abrir">Login</a>
+          <button class="login abrir">Login</button>
         </div>
       </nav>
     </header>
@@ -55,12 +55,12 @@
     <div class="conteudo"></div>
   </main>
   <footer class="footer-bg" aria-label="rodapé">
-    <div class="footer">
+    <section class="footer">
       <div class="container-foto">
         <a href="./index.html">
           <img src="./img/logo.png" alt="logo do site pipoca ágil">
         </a>
-        <p>O Podcast com o conteúdo de agilidade que ajuda você a entender e entrar neste mercado.</p>
+        <p id="paragrafo">O Podcast com o conteúdo de agilidade que ajuda você a entender e entrar neste mercado.</p>
       </div>
       <div class="somos">
         <h3>Sobre</h3>
@@ -84,14 +84,14 @@
           <li><a href="">Facebook</a></li>
         </ul>
       </div>
-    </div>
+    </section>
     <hr>
-    <div class="direitos">
+    <section class="direitos" aria-label="direitos">
       <p>©2023 Equipe Roxo Orquídea. Todos os direitos reservados</p>
       <span>Política de privacidade</span>
-    </div>
+    </section>
   </footer>
-  <div class="modal-container container" aria-label="pop-up login">
+  <section class="modal-container container" aria-label="login">
     <div class="modal">
       <h1>Login</h1>
       <span>Não tem uma conta ainda? <a href="./cadastro.html">Cadastre-se</a></span>
@@ -110,7 +110,7 @@
         <button type="submit">Login</button>
       </form>
     </div>
-  </div>
+  </section>
   <script type="module" src="js/script.js"></script>
 </body>
 </html>
