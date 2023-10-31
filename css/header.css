@@ -42,6 +42,7 @@ nav {
   line-height: 140%;
   font-family: var(--titulo);
   font-weight: 500;
+  max-width: 150px;
 }
 
 .lista-header li:first-child,
@@ -52,10 +53,6 @@ nav {
   height: 50px;
 }
 
-.lista-header span {
-  display: block;
-  text-align: center;
-}
 
 .botoes {
   display: flex;
