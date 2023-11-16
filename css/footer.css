@@ -4,14 +4,13 @@
 }
 
 .footer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 100%;
+  display: flex;
   max-width: 1440px;
-  align-items: start;
   margin: 0 auto;
+  width: 100%;
+  align-items: start;
+  justify-content: space-between; 
   padding: 10px;
-  margin-bottom: 60px;
 }
 
 .container-foto {
@@ -19,7 +18,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  margin-right: 72px;
+  margin-top: 40px;
 }
 
 .container-foto img {
@@ -35,6 +34,15 @@
   color: #1a202c;
   font-size: 1.125rem;
   font-weight: 400;
+}
+
+.conteudo-footer{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1440px;
+  gap: 120px;
+  align-items: start;
+  margin-top: 60px;
 }
 
 .footer h3 {
@@ -56,6 +64,8 @@
   font-size: 1rem;
   font-weight: 400;
 }
+
+
 
 hr {
   margin-bottom: 16px;
