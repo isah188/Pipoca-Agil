@@ -14,6 +14,7 @@ header {
   max-width: 1440px;
   margin: 32px auto;
   border-radius: 20px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
 }
 
 .img-div {
