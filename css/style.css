@@ -1,4 +1,5 @@
 @import url('./global/geral.css');
 @import url('./global/header.css');
 @import url('./global/footer.css');
-@import url('./util/modal.css')
+@import url('./util/botoes.css');
+@import url('./util/modal.css');

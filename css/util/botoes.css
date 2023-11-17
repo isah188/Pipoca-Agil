@@ -1,0 +1,26 @@
+.cadastro {
+  background: #b6a4f0;
+  border: 2px solid #8B4BAF;
+  padding: 18px 28px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  color: #833da9;
+  cursor: pointer;
+  font-family: var(--titulo);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.login {
+  margin-right: 72px;
+  background: #f3fae4;
+  border: 2px solid #8b4baf;
+  padding: 18px 28px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  color: #8b4baf;
+  cursor: pointer;
+  font-family: var(--titulo);
+  font-size: 1rem;
+  font-weight: 700;
+}
